@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../../assets/backgroundscreen.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.Back-button {
+    position: fixed; 
+    top: 20px; 
+    left: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #242323; 
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 10;
+}
+.Back-button button {
+    padding: 12px;
+    border-radius: 6px;
+    border: none; 
+    background-color: #242323; 
+    color: white; 
+    cursor: pointer; 
+    font-size: 16px;
+    margin: 10px;
+}
+
+.user-profile {
+    position: relative; 
+    max-height: 90vh;
+    width: 100%;
+    overflow: auto; 
+    padding: 20px;
+    background-color: rgba(41, 44, 45, 0.9); 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    color: #fff;
+    padding: 20px;
+    animation: fadeIn 1s ease-in;
+    width:600px;
+}
+
+.user-profile::-webkit-scrollbar {
+    display: none;
+}
+
+.user-profile {
+    scrollbar-width: none;
+}
+
+.scrollable-content {
+    max-height: 90vh;
+    overflow-y: auto; 
+    padding-right: 10px;
+}
+
+.user-profile-title {
+    margin-bottom: 20px;
+}
+
+.loading-text {
+    color: #fff;
+}
+
+.error-text {
+    color: red;
+}
+
+.book-list {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.book-item {
+    background-color: rgba(255, 255, 255, 0.1); 
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 6px;
+}
+
+.book-info {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.book-title {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.book-details {
+    font-size: 0.9em;
+    color: #b0b0b0;
+}
+
+.edit-button, .delete-button {
+    background-color: #242323;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+.edit-button:hover, .delete-button:hover {
+    background-color: #555;
+}
+
+.no-books-text {
+    color: #fff;
+}
