@@ -1,50 +1,72 @@
-Book Exchange Platform
+Book Exchange Platform - 
 A web application for exchanging books among users, with a frontend in React and a backend in Node.js.
 
 
-Prerequisites
+**Prerequisites**
+
 Node.js: Download and install Node.js
+
 MongoDB: Install MongoDB and set it up locally or have access to a remote MongoDB URI.
+
 Git: Make sure Git is installed to clone the repository.
 
 
-Installation
+**Installation**
+
 Clone the repository
 
 git clone https://github.com/Saransh050600/BookExchangePlatform
+
 cd Book Exchange Platform
 
 
-Install backend dependencies
+**Install backend dependencies**
+
 cd Backend
+
 npm install
 
 
-Install frontend dependencies
+**Install frontend dependencies**
+
 cd ../Frontend
+
 npm install
 
 
-Environment Variables
+**Environment Variables**
+
 Create a .env file in the backend directory and configure the following variables:
 
 PORT=5000
+
 MONGO_URI=<your_mongo_database_uri>
+
 JWT_SECRET=<your_jwt_secret>
+
 SMTP_HOST=smtp.gmail.com
+
 SMTP_PORT=587
+
 SMTP_USER=<your_email@example.com>
+
 SMTP_PASS=<your_email_password>
+
 FRONTEND_URL=<your_frontend_url>
 
-Running the Application
-Run the backend
+Replace <your_mongo_database_uri>, <your_jwt_secret>, <your_email@example.com>, <your_email_password>, and <your_frontend_url> with the actual values.
+
+**Running the Application**
+
+**Run the backend**
 
 In the backend directory, start the server:
+
 npm start or node app.js
 
 
-Run the frontend
+**Run the frontend**
+
 Open a new terminal, navigate to the frontend directory, and start the React application:
 
 npm start or npm run dev
