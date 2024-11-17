@@ -12,16 +12,16 @@ Installation
 Clone the repository
 
 git clone https://github.com/Saransh050600/BookExchangePlatform
-cd book-exchange-platform
+cd Book Exchange Platform
 
 
 Install backend dependencies
-cd backend
+cd Backend
 npm install
 
 
 Install frontend dependencies
-cd ../frontend
+cd ../Frontend
 npm install
 
 
@@ -31,7 +31,7 @@ Create a .env file in the backend directory and configure the following variable
 PORT=5000
 MONGO_URI=<your_mongo_database_uri>
 JWT_SECRET=<your_jwt_secret>
-SMTP_HOST=smtp.gmail.com  
+SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
 SMTP_USER=<your_email@example.com>
 SMTP_PASS=<your_email_password>
