@@ -11,7 +11,7 @@ Git: Make sure Git is installed to clone the repository.
 Installation
 Clone the repository
 
-git clone https://github.com/yourusername/book-exchange-platform.git
+git clone https://github.com/Saransh050600/BookExchangePlatform
 cd book-exchange-platform
 
 
@@ -27,6 +27,7 @@ npm install
 
 Environment Variables
 Create a .env file in the backend directory and configure the following variables:
+
 PORT=5000
 MONGO_URI=<your_mongo_database_uri>
 JWT_SECRET=<your_jwt_secret>
